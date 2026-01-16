@@ -54,7 +54,7 @@ export const PROJECTS = [
     tags: ["Kali Linux", "Metasploit", "Exegol", "TryHackMe"],
     github: "#",
     demo: "https://tryhackme.com/p/hawkzhd",
-    image: "/images/project1.jpg",
+    image: "/images/project1.png",
   },
   {
     id: 2,
@@ -98,9 +98,9 @@ export const PROJECTS = [
   },
   {
     id: 6,
-    title: "Portfolio Web Responsive",
+    title: "Infrastructure Automatisée avec Backup",
     description:
-      "Réalisation de mon portfolio personnel en HTML/CSS/JavaScript avec design responsive et animations modernes.",
+      "Automatisation pour mon homelab basée sur Ansible. Déploiement automatique de services Docker et système de backup intelligent pour redéployement rapide en cas de perte.",
     tags: ["AWS", "Ansible", "Cron", "Restic"],
     github: "https://github.com/h4wkzHD/ansible-homelab",
     demo: "#",

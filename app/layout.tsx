@@ -34,6 +34,9 @@ export const metadata: Metadata = {
     description:
       "Portfolio de Dylan Hacquard - Administrateur Réseaux & Système passionné par la cybersécurité et les infrastructures IT.",
   },
+  icons: {
+    icon: "/favicon.ico?v=2",
+  },
 };
 
 export default function RootLayout({
