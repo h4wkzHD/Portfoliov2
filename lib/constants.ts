@@ -37,8 +37,8 @@ export const TECH_STACK = [
   { name: "Exegol", category: "securite" },
   
   // Développement
-  { name: "HTML/CSS", category: "dev" },
-  { name: "JavaScript", category: "dev" },
+  { name: "Traefik", category: "dev" },
+  { name: "SSH", category: "dev" },
   { name: "Python", category: "dev" },
   { name: "Git", category: "dev" },
   { name: "VS Code", category: "dev" },

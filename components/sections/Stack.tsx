@@ -32,8 +32,8 @@ export default function Stack() {
     "Exegol": "🗡️",
     
     // Développement
-    "HTML/CSS": "🎨",
-    "JavaScript": "⚡",
+    "Traefik": "📤​",
+    "SSH": "⚡",
     "Python": "🐍",
     "Git": "📦",
     "VS Code": "💻",
