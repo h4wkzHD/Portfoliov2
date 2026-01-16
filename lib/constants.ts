@@ -54,7 +54,7 @@ export const PROJECTS = [
     tags: ["Kali Linux", "Metasploit", "Exegol", "TryHackMe"],
     github: "#",
     demo: "https://tryhackme.com/p/hawkzhd",
-    image: "/images/project1.png",
+    image: "/images/project1.jpg",
   },
   {
     id: 2,
@@ -64,7 +64,7 @@ export const PROJECTS = [
     tags: ["Cisco", "VLAN", "Routage", "Switch"],
     github: "#",
     demo: "#",
-    image: "/images/project2.jpg",
+    image: "/images/project2.png",
   },
   {
     id: 3,
@@ -84,7 +84,7 @@ export const PROJECTS = [
     tags: ["Active Directory", "Windows Server", "GPO", "PowerShell"],
     github: "#",
     demo: "#",
-    image: "/images/project4.jpg",
+    image: "/images/project4.png",
   },
   {
     id: 5,
