@@ -100,11 +100,11 @@ export const PROJECTS = [
     id: 6,
     title: "Infrastructure Automatisée avec Backup",
     description:
-      "Automatisation pour mon homelab basée sur Ansible. Déploiement automatique de services Docker et système de backup intelligent pour redéployement rapide en cas de perte.",
+      "Automatisation pour mon homelab basée sur Ansible. Déploiement automatique de services Docker et système de backup intelligent.",
     tags: ["AWS", "Ansible", "Cron", "Restic"],
     github: "https://github.com/h4wkzHD/ansible-homelab",
     demo: "#",
-    image: "/images/project6.jpg",
+    image: "/images/project6.png",
   },
 ];
 
