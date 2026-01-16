@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   role: "Administrateur Réseaux & Système",
   tagline: "Passionné par les infrastructures et la cybersécurité",
   description:
-    "Actuellement à la recherche d'une alternance pour une troisième année de licence en informatique suite à l'obtention de mon BTS SIO option SISR. Passionné par les nouvelles technologies depuis de nombreuses années, je suis animé par une réelle volonté de rester à la pointe des innovations informatiques.",
+    "Actuellement à la recherche d'une alternance pour une première année de Master en CyberSécurité suite à l'obtention de mon BTS SIO option SISR et mon actuelle 3ème année de licence informatique. Passionné par les nouvelles technologies depuis de nombreuses années, je suis animé par une réelle volonté de rester à la pointe des innovations informatiques.",
   email: "dylanhacquard@gmail.com",
   location: "Provence Côte d'Azur, France",
   github: "https://github.com/h4wkzHD",
@@ -51,14 +51,14 @@ export const PROJECTS = [
     title: "Pentest & Hacking Éthique",
     description:
       "Apprentissage et exploitation de failles de sécurité sur des machines virtuelles dédiées (TryHackMe, HackTheBox). Utilisation d'outils comme Metasploit, Burp Suite, Nmap.",
-    tags: ["Kali Linux", "Metasploit", "Burp Suite", "TryHackMe"],
+    tags: ["Kali Linux", "Metasploit", "Exegol", "TryHackMe"],
     github: "#",
     demo: "https://tryhackme.com/p/hawkzhd",
     image: "/images/project1.jpg",
   },
   {
     id: 2,
-    title: "Infrastructure Cisco",
+    title: "Configuration réseaux",
     description:
       "Configuration et administration de routeurs et switches Cisco. Mise en place de VLANs, routage inter-VLAN, protocoles de routage (OSPF, EIGRP). Certification Cisco obtenue.",
     tags: ["Cisco", "VLAN", "Routage", "Switch"],
@@ -70,8 +70,8 @@ export const PROJECTS = [
     id: 3,
     title: "Virtualisation VMware & Proxmox",
     description:
-      "Déploiement et gestion d'environnements virtualisés. Configuration de clusters, snapshots, migration de VMs, optimisation des ressources.",
-    tags: ["VMware", "Proxmox", "Virtualisation", "Linux"],
+      "Déploiement et gestion d'environnements virtualisés. Configuration de clusters, snapshots, backups, homelab.",
+    tags: ["VMware", "Proxmox", "Virtualisation", "Docker"],
     github: "#",
     demo: "#",
     image: "/images/project3.jpg",
@@ -90,8 +90,8 @@ export const PROJECTS = [
     id: 5,
     title: "Supervision & Monitoring",
     description:
-      "Mise en place de solutions de supervision réseau et système avec PRTG, Zabbix. Alertes automatisées, dashboards personnalisés.",
-    tags: ["PRTG", "Zabbix", "Monitoring", "Nagios"],
+      "Mise en place de solutions de supervision réseau et système avec Zabbix. Alertes automatisées, dashboards personnalisés.",
+    tags: ["Grafana", "Zabbix", "Alertmanager", "Prometheus"],
     github: "#",
     demo: "#",
     image: "/images/project5.png",
@@ -101,9 +101,9 @@ export const PROJECTS = [
     title: "Portfolio Web Responsive",
     description:
       "Réalisation de mon portfolio personnel en HTML/CSS/JavaScript avec design responsive et animations modernes.",
-    tags: ["HTML", "CSS", "JavaScript", "Responsive"],
-    github: "https://github.com/h4wkzHD/myportfolio",
-    demo: "https://hawkzhd.ovh",
+    tags: ["AWS", "Ansible", "Cron", "Restic"],
+    github: "https://github.com/h4wkzHD/ansible-homelab",
+    demo: "#",
     image: "/images/project6.jpg",
   },
 ];
