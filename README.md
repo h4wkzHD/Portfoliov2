@@ -26,7 +26,7 @@ Portfolio moderne et interactif construit avec Next.js 15, TypeScript, Tailwind 
 
 ```bash
 # Cloner le repository
-git clone https://github.com/h4wkzHD/myportfolio.git
+git clone https://github.com/h4wkzHD/Portfoliov2.git
 cd myportfolio
 
 # Installer les dépendances
