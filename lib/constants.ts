@@ -120,8 +120,8 @@ export const ABOUT_CONTENT = {
     "Pentest & Exploitation de vulnérabilités (Kali Linux, Metasploit)",
     "Virtualisation (VMware, Proxmox, Docker)",
     "Administration Windows Server & Active Directory",
-    "Administration Linux (Debian, Ubuntu, CentOS)",
-    "Développement Web (HTML, CSS, JavaScript, Python)",
+    "Administration Linux (Debian, Ubuntu, Mint)",
+    "Développement Web (HTML, CSS, Python)",
   ],
 };
 
