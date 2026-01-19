@@ -51,7 +51,7 @@ export default function Footer() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <a
-              href="https://github.com/h4wkzHD/myportfolio"
+              href="https://github.com/h4wkzHD/Portfoliov2"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-accent transition-colors"
