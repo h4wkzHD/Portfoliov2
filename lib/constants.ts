@@ -143,7 +143,7 @@ export const SOCIAL_LINKS = [
   // },
   {
     name: "Email",
-    url: "dylanhacquard@gmail.com",
+    url: "mailto:dylanhacquard@gmail.com",
     icon: "Mail",
   },
 ];
