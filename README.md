@@ -155,10 +155,6 @@ npm run lint     # Lancer le linter
 - ✅ Animations performantes avec Framer Motion
 - ✅ SEO avec métadonnées complètes
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou une pull request.
-
 ## 📄 License
 
 Ce projet est sous licence MIT.
