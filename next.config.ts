@@ -6,10 +6,10 @@ const nextConfig: NextConfig = {
     domains: [],
   },
    eslint: {
-    ignoreDuringBuilds: true, // ⚠️ Ajoute cette ligne
+    ignoreDuringBuilds: true,
   },
   typescript: {
-    ignoreBuildErrors: true, // ⚠️ Ajoute celle-ci aussi
+    ignoreBuildErrors: true, 
   },
 };
 

@@ -1,10 +1,29 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Rocket, Sparkles } from "lucide-react";
+import { Code2, Rocket, Sparkles, Terminal, Activity } from "lucide-react";
 import ScrollReveal from "../animations/ScrollReveal";
 import SectionTitle from "../ui/SectionTitle";
 import { ABOUT_CONTENT } from "@/lib/constants";
+
+// export default function About() {
+//   const features = [
+//     {
+//       icon: Code2,
+//       title: "Administration Réseaux",
+//       description: "Configuration et maintenance d'infrastructures",
+//     },
+//     {
+//       icon: Rocket,
+//       title: "Cybersécurité",
+//       description: "Pentest et sécurisation des SI",
+//     },
+//     {
+//       icon: Sparkles,
+//       title: "Virtualisation",
+//       description: "Déploiement et gestion de VMs",
+//     },
+//   ];
 
 export default function About() {
   const features = [
@@ -22,6 +41,16 @@ export default function About() {
       icon: Sparkles,
       title: "Virtualisation",
       description: "Déploiement et gestion de VMs",
+    },
+    {
+      icon: Terminal,
+      title: "Automatisation",
+      description: "Ansible, scripts Bash & Python",
+    },
+    {
+      icon: Activity,
+      title: "Supervision & Monitoring",
+      description: "Grafana, Prometheus, Zabbix",
     },
   ];
 
@@ -109,10 +138,10 @@ export default function About() {
         <ScrollReveal delay={0.4}>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
             {[
-              { label: "Projets réalisés", value: "15+" },
-              { label: "Technologies maîtrisées", value: "20+" },
+              { label: "Projets réalisés", value: "20+" },
+              { label: "Technologies maîtrisées", value: "30+" },
               { label: "Certifications", value: "3" },
-              { label: "Années d'expérience", value: "2+" },
+              { label: "Années d'expérience", value: "3+" },
             ].map((stat, index) => (
               <motion.div
                 key={index}

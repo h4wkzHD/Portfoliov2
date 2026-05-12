@@ -10,8 +10,10 @@ export default function Stack() {
   const techIcons: Record<string, string> = {
     // Réseaux
     "AdGuard": "🌐",
-    "pfSense": "🛡️",
-    "Ansible": "🔥",
+    "OPNSense": "🛡️",
+    "Suricata": "🐉",
+    "HAProxy": "⚖️",
+    "Unbound": "🔒",
     "WireShark": "🦈",
     "Putty": "⌨️",
     "WinSCP": "📁",
@@ -38,6 +40,21 @@ export default function Stack() {
     "Git": "📦",
     "VS Code": "💻",
     "GitHub": "🐙",
+
+    //Supervision
+    "Grafana": "📊",
+    "Prometheus": "🔥",
+    "Zabbix": "📡",
+    "AlertManager": "📢​",
+    "InfluxDB": "📝​",
+
+
+    //Automatisation & cloud
+    "Ansible": "⚙️",
+    "Microsoft 365": "📧",
+    "Restic": "💾",
+    "Bash": "🖥️",
+    "Cron": "⏰",
   };
 
   // Diviser les technologies en trois rangées pour un meilleur effet
@@ -46,6 +63,9 @@ export default function Stack() {
   );
   const securiteEtDev = TECH_STACK.filter(
     (tech) => tech.category === "securite" || tech.category === "dev"
+  );
+  const supervisionEtCloud = TECH_STACK.filter(
+  (tech) => tech.category === "supervision" || tech.category === "cloud"
   );
   const mixRandom = TECH_STACK.slice(0, 12);
 
@@ -86,12 +106,18 @@ export default function Stack() {
           ))}
         </Marquee>
 
-        {/* Troisième rangée - mix de tout */}
+        {/* Troisième rangée - vers la droite */}
         <Marquee>
-          {mixRandom.map((tech, index) => (
+          {supervisionEtCloud.map((tech, index) => (
             <TechItem key={`tech-3-${index}`} name={tech.name} />
           ))}
         </Marquee>
+        {/* 4e rangée - mix de tout
+        <Marquee reverse>
+          {mixRandom.map((tech, index) => (
+            <TechItem key={`tech-2-${index}`} name={tech.name} />
+          ))}
+        </Marquee> */}
       </div>
 
       {/* Gradient overlays pour effet de fondu sur les bords */}

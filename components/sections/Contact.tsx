@@ -37,7 +37,7 @@ export default function Contact() {
       </div>
 
       <div className="max-w-4xl mx-auto relative z-10">
-        <SectionTitle subtitle="Une idée de projet ? Travaillons ensemble !">
+        <SectionTitle subtitle="Une idée de projet ?">
           Contactez-moi
         </SectionTitle>
 
@@ -46,7 +46,7 @@ export default function Contact() {
             {/* Main CTA */}
             <div className="text-center mb-12">
               <h3 className="text-2xl md:text-3xl font-bold text-primary mb-4">
-                Prêt à démarrer votre projet ?
+                Travaillons ensemble !  
               </h3>
               <p className="text-secondary text-lg mb-8">
                 Je suis toujours ouvert à discuter de nouvelles opportunités,
