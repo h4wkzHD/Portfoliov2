@@ -112,12 +112,12 @@ export default function Stack() {
             <TechItem key={`tech-3-${index}`} name={tech.name} />
           ))}
         </Marquee>
-        {/* 4e rangée - mix de tout
+        {/* 4e rangée - mix de tout*/}
         <Marquee reverse>
           {mixRandom.map((tech, index) => (
             <TechItem key={`tech-2-${index}`} name={tech.name} />
           ))}
-        </Marquee> */}
+        </Marquee>
       </div>
 
       {/* Gradient overlays pour effet de fondu sur les bords */}
